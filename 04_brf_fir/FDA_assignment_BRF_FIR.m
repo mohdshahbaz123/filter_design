@@ -39,3 +39,5 @@ fvtool(fir_h);
  [H,f] = freqz(fir_h,1,1024,fs);
  plot(f,abs(H))
  grid
+
+
