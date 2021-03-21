@@ -1,15 +1,13 @@
 # Filter Design
 > This is an filter design assignment. 
 > We have designed filter with the specifications as per the filter number M = 46 assigned. 
-
 > We are using matlab program for frequency response, kaiser window function generation, plots and so on. 
 
 ## The Filter Specifications:
 We wish to build a series of discrete time filters to extract specific bands of an analog signal, or to suppress specific parts of the analog signal. 
 
 >   Passband AND Stopband tolerances are 0.15 in magnitude.
-      That is, the filter magnitude response (note: NOT magnitude squared) must lie between 1.15 and 0.85 in the passband; and between 0 and 0.15 in the stopband.                     For the IIR Filter, the passband magnitude response must lie between 1 and 0.85. 
-      
+      That is, the filter magnitude response (note: NOT magnitude squared) must lie between 1.15 and 0.85 in the passband; and between 0 and 0.15 in the stopband.                     For the IIR Filter, the passband magnitude response must lie between 1 and 0.85.      
 >   For bandpass filters & bandstop filters the transition band is 2 kHz on either side of the passband.
 
 ## The First Filter Specifications:
