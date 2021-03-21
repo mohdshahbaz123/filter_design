@@ -6,10 +6,10 @@
 ## The Filter Specifications:
 We wish to build a series of discrete time filters to extract specific bands of an analog signal, or to suppress specific parts of the analog signal. 
 
-(i)   Passband AND Stopband tolerances are 0.15 in magnitude.
+>   Passband AND Stopband tolerances are 0.15 in magnitude.
       That is, the filter magnitude response (note: NOT magnitude squared) must lie between 1.15 and 0.85 in the passband; and between 0 and 0.15 in the stopband.                     For the IIR Filter, the passband magnitude response must lie between 1 and 0.85. 
       
-(ii)  For bandpass filters & bandstop filters the transition band is 2 kHz on either side of the passband.
+>   For bandpass filters & bandstop filters the transition band is 2 kHz on either side of the passband.
 
 ## The First Filter Specifications:
 
@@ -23,7 +23,7 @@ We wish to build a series of discrete time filters to extract specific bands of 
   For example, r(5) = 5, r(30) = 10 BL(m) = 5 + 1.4 q(m) + 4 r(m).
   For example, BL(30) = 5 + 1.4 (2) + 4 (10) = 47.8; BH(m) = BL(m) + 10. 
   
-## The Secons Filter Specifications: 
+## The Second Filter Specifications: 
 - An analog signal is bandlimited to 110 kHz. 
 - Sampling rate of 250 kHz.
 -  The second filter to be designed is a bandstop filter. 
